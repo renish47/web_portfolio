@@ -2,14 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .custom-scrollbar::-webkit-scrollbar {
+.custom-scrollbar::-webkit-scrollbar {
   height: 5px !important;
   width: 8px;
 }
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: rgba(150, 150, 150, 0.772);
   border-radius: 50px;
-} */
+}
 
 .borderBlack {
   @apply border border-black/30;
