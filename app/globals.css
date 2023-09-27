@@ -15,6 +15,15 @@
   @apply border border-black/30;
 }
 
+::-moz-selection {
+  /* Code for Firefox */
+  background: transparent;
+}
+
+::selection {
+  background: transparent;
+}
+
 /* input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
