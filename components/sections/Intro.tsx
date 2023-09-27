@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { useSectionInView } from "@/lib/hooks";
+import { githubProfile, linkedinProfile } from "@/lib/data";
 import { useActiveSectionContext } from "@/context/ActiveSectionContextProvider";
 
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
@@ -92,7 +93,7 @@ export default function Intro() {
         <div className="flex gap-5 ">
           <a
             className="flex cursor-pointer items-center gap-2 rounded-full border border-black/20 bg-white p-4 text-gray-700 shadow-md shadow-black/[0.05] transition hover:scale-[1.15] hover:text-gray-950 active:scale-105 dark:bg-white/10 dark:text-white/80"
-            href="https://linkedin.com"
+            href={linkedinProfile}
             target="_blank"
           >
             <BsLinkedin />
@@ -100,7 +101,7 @@ export default function Intro() {
 
           <a
             className="flex cursor-pointer items-center gap-2 rounded-full border border-black/20 bg-white p-4 text-gray-700 shadow-md shadow-black/[0.05] transition hover:scale-[1.15] hover:text-gray-950 active:scale-105 dark:bg-white/10 dark:text-white/80"
-            href="https://github.com"
+            href={githubProfile}
             target="_blank"
           >
             <FaGithubSquare />
