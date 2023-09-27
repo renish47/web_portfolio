@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
-import { experiencesData } from "@/lib/data";
 import React from "react";
 
 import SectionHeading from "../SectionHeading";
