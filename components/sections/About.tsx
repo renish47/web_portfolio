@@ -45,9 +45,12 @@ export default function About() {
         , allowing me to combine my technical expertise with my creative vision.
       </p>
       <p className="mb-5 dark:text-white/80">
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I love the feeling of finally figuring out a
-        solution to a problem. My core stack is{" "}
+        My favorite part of programming is the problem-solving aspect.
+        <i>
+          {" "}
+          I love the feeling of finally figuring out a solution to a problem.
+        </i>{" "}
+        My core stack is{" "}
         <span className="font-semibold dark:text-white">
           React, Next.js, Node.js, and MongoDB
         </span>
