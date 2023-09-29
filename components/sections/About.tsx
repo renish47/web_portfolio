@@ -32,8 +32,7 @@ export default function About() {
         </span>{" "}
         fascinated me, igniting a strong attraction towards the world of
         programming. Since then, I have embraced coding as a means to bring
-        ideas to life and make a tangible impact. As a movie buff, I appreciate
-        the{" "}
+        ideas to life. As a movie buff, I appreciate the{" "}
         <span className="font-semibold dark:text-white">
           {" "}
           art of storytelling
