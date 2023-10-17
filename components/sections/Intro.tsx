@@ -83,7 +83,7 @@ export default function Intro() {
 
         <a
           className="group flex cursor-pointer items-center gap-2 rounded-full border border-black/20 bg-white px-7 py-3 shadow-md shadow-black/[0.05] outline-none transition hover:scale-110 active:scale-105 dark:bg-white/10"
-          href="https://drive.google.com/file/d/1vlnPbv3IaozJfBVF90-zlKSg5wzhPCeX/view?usp=sharing"
+          href="https://drive.google.com/file/d/1rmjRe2hNFe3Kw4v7mHDfOw2ABjy_orYM/view?usp=sharing"
           target="_blank"
         >
           Download Resume{" "}
