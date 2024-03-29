@@ -58,7 +58,7 @@ export default function Intro() {
         <span className="font-bold">Hello, I&apos;m Renishkar,</span> a{" "}
         <span className="font-bold">full-stack developer</span> who enjoys
         building <span className="">sites & apps</span> and I&apos;m a{" "}
-        <span className="underline">React (Next.js)</span> fanboy
+        <span className="underline">React.js</span> fanboy
       </motion.h1>
 
       <motion.div
@@ -83,7 +83,7 @@ export default function Intro() {
 
         <a
           className="group flex cursor-pointer items-center gap-2 rounded-full border border-black/20 bg-white px-7 py-3 shadow-md shadow-black/[0.05] outline-none transition hover:scale-110 active:scale-105 dark:bg-white/10"
-          href="https://drive.google.com/file/d/1rmjRe2hNFe3Kw4v7mHDfOw2ABjy_orYM/view"
+          href="https://drive.google.com/file/d/1YyePUJ_0cB5JjaGPhklXzy5PEQWpdOiB/view?usp=sharing"
           target="_blank"
         >
           Download Resume{" "}
