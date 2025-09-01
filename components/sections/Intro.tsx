@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { useSectionInView } from "@/lib/hooks";
-import { githubProfile, linkedinProfile } from "@/lib/data";
+import { githubProfile, linkedinProfile, resume } from "@/lib/data";
 import { useActiveSectionContext } from "@/context/ActiveSectionContextProvider";
 
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
@@ -83,7 +83,7 @@ export default function Intro() {
 
         <a
           className="group flex cursor-pointer items-center gap-2 rounded-full border border-black/20 bg-white px-7 py-3 shadow-md shadow-black/[0.05] outline-none transition hover:scale-110 active:scale-105 dark:bg-white/10"
-          href="https://drive.google.com/file/d/1rMu4f9JNNyixfTQl-WOY47V2KVutkwRe/view?usp=sharing"
+          href={resume}
           target="_blank"
         >
           Download Resume{" "}
@@ -111,3 +111,4 @@ export default function Intro() {
     </section>
   );
 }
+
