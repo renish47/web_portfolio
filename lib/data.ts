@@ -11,6 +11,7 @@ import whatsappCloneImg from "@/public/projectsImage/whatsappClone.jpg";
 
 export const githubProfile = "https://github.com/renish47";
 export const linkedinProfile = "https://www.linkedin.com/in/renishkar-j/";
+export const resume = "https://drive.google.com/file/d/1teabVqt84eXB4zLuFWZWvcIbds-IgS-l/view?usp=sharing"
 
 export const links = [
   {
@@ -106,3 +107,4 @@ export const skillsData = [
   "Express.js",
   "Framer Motion",
 ] as const;
+
